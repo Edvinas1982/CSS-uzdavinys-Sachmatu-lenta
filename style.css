@@ -1,0 +1,27 @@
+caption {
+    margin-top: 20px;
+}
+th, td {
+    font-size: 35px;
+}
+table, th, td {
+    border: 1px solid black;
+    align-content: center;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: #b05513;
+    table-layout: fixed;
+    width: 40%;
+    height: 50px;
+    
+}
+.yellow {
+color: #eef73b;
+}
+.yellowBackground {
+    background-color: #eef73b;
+}
+.rotate {
+    transform: rotate(180deg);
+}

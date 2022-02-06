@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS uzduotis - Sachmatu lenta</title>
+</head>
+<body>
+    <!-- UŽDAVINYS
+Atvaizduokite tuščią šachmatų lentą (8x8 juoda/balta arba koks nors kitas spalvinis 
+variantas). Nepamiškite, kad eilutės žymimos skaičiais nuo 1 iki 8, o stulpeliai 
+raidėmis nuo A iki H.
+*) Kas nori sunkesnio uždavinio, tai gali pabandyti pavaizduoti ir šachmatų figūras 
+žaidimo pradžioje. Paveiksliukus galite imti iš https://commons.wikimedia.org/wiki/
+Category:PNG_chess_pieces/Standard_transparent arba naudoti unikodinius 
+simbolius: https://en.wikipedia.org/wiki/Chess_symbols_in_Unicode
+**) Pabandykit lenteles stulpelių ir eilučių numerius/raides atvaizduoti pasuktas 
+pagal lentos kraštą, t.y. viršuje rodomos normaliai, apačioje - apverstos 180o, ir 
+atitinkamai pasuktos ±90o šonuose. -->
+    
+<table>
+    <caption style="padding: 5px;">UŽDAVINYS #2</caption>
+    <thead>
+        <tr>
+            <th>
+            </th>
+            <th class="yellow rotate">
+                A
+            </th>
+            <th class="yellow rotate">
+                B
+            </th>
+            <th class="yellow rotate">
+                C
+            </th>
+            <th class="yellow rotate">
+                D
+            </th>
+            <th class="yellow rotate"> 
+                E
+            </th>
+            <th class="yellow rotate">
+                F
+            </th>
+            <th class="yellow rotate">
+                G
+            </th>
+            <th class="yellow rotate">
+                H
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="yellow">8</td>
+            <td class="yellowBackground">&#9814</td>
+            <td>&#9816</td>
+            <td class="yellowBackground">&#9815</td>
+            <td>&#9813</td>
+            <td class="yellowBackground">&#9812</td>
+            <td>&#9815</td>
+            <td class="yellowBackground">&#9816</td>
+            <td>&#9814</td>
+            <td class="yellow rotate">8</td>
+        </tr>
+        <tr>
+            <td class="yellow">7</td>
+            <td>&#9817</td>
+            <td class="yellowBackground"></td>
+            <td>&#9817</td>
+            <td class="yellowBackground">&#9817</td>
+            <td>&#9817</td>
+            <td class="yellowBackground">&#9817</td>
+            <td>&#9817</td>
+            <td class="yellowBackground">&#9817</td>
+            <td class="yellow rotate">7</td>
+        </tr>
+        <tr>
+            <td class="yellow">6</td>
+            <td class="yellowBackground"></td>
+            <td>&#9817</td>
+            <td class="yellowBackground"></td>
+            <td></td>
+            <td class="yellowBackground"></td>
+            <td></td>
+            <td class="yellowBackground"></td>
+            <td></td>
+            <td class="yellow rotate">6</td>
+        </tr>
+        <tr>
+            <td class="yellow">5</td>
+            <td></td>
+            <td class="yellowBackground"></td>
+            <td></td>
+            <td class="yellowBackground"></td>
+            <td></td>
+            <td class="yellowBackground"></td>
+            <td></td>
+            <td class="yellowBackground"></td>
+            <td class="yellow rotate">5</td>
+        </tr>
+        <tr>
+            <td class="yellow">4</td>
+            <td class="yellowBackground"></td>
+            <td></td>
+            <td class="yellowBackground"></td>
+            <td></td>
+            <td class="yellowBackground"></td>
+            <td></td>
+            <td class="yellowBackground"></td>
+            <td></td>
+            <td class="yellow rotate">4</td>
+        </tr>
+        <tr>
+            <td class="yellow">3</td>
+            <td></td>
+            <td class="yellowBackground"></td>
+            <td></td>
+            <td class="yellowBackground"></td>
+            <td></td>
+            <td class="yellowBackground"></td>
+            <td></td>
+            <td class="yellowBackground"></td>
+            <td class="yellow rotate">3</td>
+        </tr>
+        <tr>
+            <td class="yellow">2</td>
+            <td class="yellowBackground">&#9823</td>
+            <td>&#9823</td>
+            <td class="yellowBackground">&#9823</td>
+            <td>&#9823</td>
+            <td class="yellowBackground">&#9823</td>
+            <td>&#9823</td>
+            <td class="yellowBackground">&#9823</td>
+            <td>&#9823</td>
+            <td class="yellow rotate">2</td>
+        </tr>
+        <tr>
+            <td class="yellow">1</td>
+            <td>&#9820</td>
+            <td class="yellowBackground">&#9822</td>
+            <td>&#9821</td>
+            <td class="yellowBackground">&#9819</td>
+            <td>&#9818</td>
+            <td class="yellowBackground">&#9821</td>
+            <td>&#9822</td>
+            <td class="yellowBackground">&#9820</td>
+            <td class="yellow rotate">1</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>
+            </th>
+            <th class="yellow">
+                A
+            </th>
+            <th class="yellow">
+                B
+            </th>
+            <th class="yellow">
+                C
+            </th>
+            <th class="yellow">
+                D
+            </th>
+            <th class="yellow">
+                E
+            </th>
+            <th class="yellow">
+                F
+            </th>
+            <th class="yellow">
+                G
+            </th>
+            <th class="yellow">
+                H
+            </th>
+            <th>
+            </th>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>
